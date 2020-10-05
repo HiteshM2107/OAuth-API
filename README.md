@@ -18,7 +18,8 @@ npm install googleapis@39 –save
 5.	Copy the index.js from the repository and save it in the current working folder. You also need to paste the credentials.json which you downloaded earlier into the current working folder.
 
 <b>NOTE </b>: In the credentials.json file, replace the “web” key with “installed” key and save the changes. 
-<img src="Screenshots/change.PNG"> 
+
+<img src="Screenshots/change.png"> 
 
 6.	Run the code by typing “node .” in the terminal. 
 
@@ -26,17 +27,18 @@ npm install googleapis@39 –save
   
 If you are not already logged into your Google account, you will be prompted to log in. If you are logged into multiple Google accounts, you will be asked to select one account to use for the authorization.
 The OAuth consent screen that is presented to the user may show the warning "This app isn't verified" if it is requesting scopes that provide access to sensitive user data. These applications must eventually go through the verification process to remove that warning and other limitations. During the development phase you can continue past this warning by clicking Advanced > Go to {Project Name} (unsafe).
+
 8.	Select the Email with which you want to login
 
 9.	Allow the QuickStart to access the information by clicking on “Allow”.
 
 10.	Copy the URL from the search bar in the browser. Select the part of the URL starting after  ‘code=’ and ending before ‘&score’ .
-<img src="Screenshots/URL.PNG">
+<img src="Screenshots/URL.png">
 
 11.	Paste the selected part of the URL in the terminal and hit enter. 
 
 12.	Hurray! You have got the token.json file which has the access token, refresh token, scope and token type of the user. You can also use the Labels of the emails of the user.
-<img src="Screenshots/output.PNG">
+<img src="Screenshots/output.png">
 
  
 
