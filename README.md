@@ -15,7 +15,8 @@ To use this API, follow the following commands –
     <img src="Screenshots/configure.PNG">
 
 4.	Create a simple Node.js command-line application and run the following command to install the libraries using npm: 
-npm install googleapis@39 –save
+
+        npm install googleapis@39 –save
 
 5.	Copy the index.js from the repository and save it in the current working folder. You also need to paste the credentials.json which you downloaded earlier into the current working folder.
 
